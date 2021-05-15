@@ -3,11 +3,12 @@ class Coin {
   final String symbol;
   final String name;
   final String imageUrl;
-  final int currentPrice;
-  final int marketCap;
-  final int marketCapRank;
-  final int highPrice;
-  final int lowPrice;
+  final num currentPrice;
+  final num marketCap;
+  final num marketCapRank;
+  final num highPrice;
+  final num lowPrice;
+  final num marketCapChangePercentage;
 
   Coin({
     this.id,
@@ -19,5 +20,6 @@ class Coin {
     this.marketCapRank,
     this.highPrice,
     this.lowPrice,
+    this.marketCapChangePercentage,
   });
 }
